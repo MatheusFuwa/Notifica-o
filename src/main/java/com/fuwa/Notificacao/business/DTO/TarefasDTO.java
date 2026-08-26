@@ -1,7 +1,7 @@
-package com.fuwa.agendador_tarefas.business.dto;
+package com.fuwa.Notificacao.business.DTO;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fuwa.agendador_tarefas.infraestructure.enums.StatusNotificacaoEnum;
+import com.fuwa.Notificacao.business.enums.StatusNotificacaoEnum;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -14,8 +14,8 @@ import java.time.LocalDateTime;
 
 public class TarefasDTO {
     private String id;
-    private String NomeTarefa;
-    private String Descricao;
+    private String nomeTarefa;
+    private String descricao;
     private LocalDateTime dataCriacao;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
     private LocalDateTime dataEvento;

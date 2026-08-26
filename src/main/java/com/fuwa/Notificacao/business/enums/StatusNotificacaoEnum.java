@@ -1,4 +1,4 @@
-package com.fuwa.agendador_tarefas.infraestructure.enums;
+package com.fuwa.Notificacao.business.enums;
 
 public enum StatusNotificacaoEnum {
     PENDENTE, NOTIFICADO, CANCELADO
