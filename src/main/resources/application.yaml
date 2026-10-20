@@ -2,8 +2,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username:
-    password:
+    username: echoesofaetherhq@gmail.com
+    password: xncn qfoi dvat zkgc
     protocol: smtp
     properties:
       mail:
@@ -23,7 +23,7 @@ spring:
 
 envio:
   email:
-    remetente:
+    remetente: echoesofaetherhq@gmail.com
     nomeRemetente: 'Matheus Fuwa'
 
 server:
